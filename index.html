@@ -67,39 +67,39 @@
                             <span class="iconfont icon-16"></span>文章管理</a>
                         <dl class="layui-nav-child">
                             <dd>
-                                <a href="javascript:;">
+                                <a href="/article/art_cate.html" target="fm">
                                     <i class="layui-icon layui-icon-app"></i> 文章类别
                                 </a>
                             </dd>
                             <dd>
-                                <a href="javascript:;">
+                                <a href="/article/art_list.html" target="fm">
                                     <i class="layui-icon layui-icon-app"></i> 文章列表
                                 </a>
                             </dd>
                             <dd>
-                                <a>
-                                    <i class="layui-icon layui-icon-app"></i> 发布文章
+                                <a href="/article/art_pub.html" target="fm">
+                                    <i class=" layui-icon layui-icon-app "></i> 发布文章
                                 </a>
                             </dd>
                         </dl>
                     </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">
-                            <span class="iconfont icon-user"></span>个人中心</a>
-                        <dl class="layui-nav-child">
+                    <li class="layui-nav-item ">
+                        <a href="javascript:; ">
+                            <span class="iconfont icon-user "></span>个人中心</a>
+                        <dl class="layui-nav-child ">
                             <dd>
-                                <a href="/user/user_info.html" target="fm">
-                                    <i class="layui-icon layui-icon-app"></i> 基本资料
+                                <a href="/user/user_info.html " target="fm">
+                                    <i class="layui-icon layui-icon-app "></i> 基本资料
                                 </a>
                             </dd>
                             <dd>
-                                <a href="/user/user_avatar.html" target="fm">
-                                    <i class="layui-icon layui-icon-app"></i> 更换头像
+                                <a href="/user/user_avatar.html " target="fm">
+                                    <i class="layui-icon layui-icon-app "></i> 更换头像
                                 </a>
                             </dd>
                             <dd>
-                                <a href="/user/user_pwd.html" target="fm">
-                                    <i class="layui-icon layui-icon-app"></i> 重置密码
+                                <a href="/user/user_pwd.html " target="fm">
+                                    <i class="layui-icon layui-icon-app "></i> 重置密码
                                 </a>
                             </dd>
                         </dl>
@@ -108,18 +108,18 @@
             </div>
         </div>
 
-        <div class="layui-body">
+        <div class="layui-body ">
             <!-- 内容主体区域 -->
-            <iframe src="/home/dashboard.html" frameborder="0" name="fm" id='mainframe'></iframe>
+            <iframe src="/home/dashboard.html " frameborder="0 " name="fm" id='mainframe'></iframe>
         </div>
 
-        <div class="layui-footer">
+        <div class="layui-footer ">
             <!-- 底部固定区域 -->
             ©️ www.itheima.com - 黑马程序员
         </div>
     </div>
-    <script src="/assets/lib/jquery.js"></script>
-    <script src="assets/lib/layui/layui.js"></script>
+    <script src="/assets/lib/jquery.js "></script>
+    <script src="assets/lib/layui/layui.js "></script>
     <script>
         //JS 
         layui.use(['element', 'layer', 'util'], function() {
@@ -139,10 +139,9 @@
                 menuRight: function() {
                     layer.open({
                         type: 1,
-                        content: '<div style="padding: 15px;">处理右侧面板的操作</div>',
+                        content: '<div style="padding: 15px; ">处理右侧面板的操作</div>',
                         area: ['260px', '100%'],
-                        offset: 'rt' //右上角
-                            ,
+                        offset: 'rt', //右上角
                         anim: 5,
                         shadeClose: true
                     });
@@ -151,8 +150,8 @@
 
         });
     </script>
-    <script src="/assets/js/baseAPI.js"></script>
-    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/baseAPI.js "></script>
+    <script src="/assets/js/index.js "></script>
 </body>
 
 </html>
